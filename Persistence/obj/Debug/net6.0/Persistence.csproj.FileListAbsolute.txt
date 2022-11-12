@@ -1,0 +1,17 @@
+C:\Users\tosin\source\repos\WalletSolution\Persistence\bin\Debug\net6.0\Persistence.deps.json
+C:\Users\tosin\source\repos\WalletSolution\Persistence\bin\Debug\net6.0\Persistence.dll
+C:\Users\tosin\source\repos\WalletSolution\Persistence\bin\Debug\net6.0\ref\Persistence.dll
+C:\Users\tosin\source\repos\WalletSolution\Persistence\bin\Debug\net6.0\Persistence.pdb
+C:\Users\tosin\source\repos\WalletSolution\Persistence\bin\Debug\net6.0\Application.dll
+C:\Users\tosin\source\repos\WalletSolution\Persistence\bin\Debug\net6.0\Domain.dll
+C:\Users\tosin\source\repos\WalletSolution\Persistence\bin\Debug\net6.0\Application.pdb
+C:\Users\tosin\source\repos\WalletSolution\Persistence\bin\Debug\net6.0\Domain.pdb
+C:\Users\tosin\source\repos\WalletSolution\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\tosin\source\repos\WalletSolution\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tosin\source\repos\WalletSolution\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\tosin\source\repos\WalletSolution\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+C:\Users\tosin\source\repos\WalletSolution\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\tosin\source\repos\WalletSolution\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
+C:\Users\tosin\source\repos\WalletSolution\Persistence\obj\Debug\net6.0\Persistence.dll
+C:\Users\tosin\source\repos\WalletSolution\Persistence\obj\Debug\net6.0\ref\Persistence.dll
+C:\Users\tosin\source\repos\WalletSolution\Persistence\obj\Debug\net6.0\Persistence.pdb

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Common.Enums
 {
-    internal class TransactionType
+    public enum TransactionType
     {
+        CREDIT,
+        DEBIT,
+        BALANCE_CHECK,
     }
 }

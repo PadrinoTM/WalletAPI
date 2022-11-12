@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Common.Enums
 {
-    internal class WalletType
+    public enum AccountType
     {
+        USD,
+        NGN
     }
 }

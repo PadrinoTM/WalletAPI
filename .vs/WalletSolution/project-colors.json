@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e36d9c46-8f53-4e1a-8613-2fde6c573fdd": {
+      "ProjectGuid": "e36d9c46-8f53-4e1a-8613-2fde6c573fdd",
+      "DisplayName": "Persistence",
+      "ColorIndex": 0
+    },
+    "2988ac55-9d0a-4d31-aecf-be3ead351b61": {
+      "ProjectGuid": "2988ac55-9d0a-4d31-aecf-be3ead351b61",
+      "DisplayName": "Domain",
+      "ColorIndex": 1
+    },
+    "c05a9e1a-9909-426b-92a8-f07adab73fba": {
+      "ProjectGuid": "c05a9e1a-9909-426b-92a8-f07adab73fba",
+      "DisplayName": "Application",
+      "ColorIndex": 2
+    },
+    "d1437193-195f-423a-aee6-d669ac743a8a": {
+      "ProjectGuid": "d1437193-195f-423a-aee6-d669ac743a8a",
+      "DisplayName": "WalletSolution",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Common
 {
-    internal class TransactionStatus
+    public enum TransactionStatus
     {
+        Successful,
+        Pending,
+        Failed
+        
     }
 }

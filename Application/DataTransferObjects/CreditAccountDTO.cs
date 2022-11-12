@@ -11,6 +11,6 @@ namespace Application.DataTransferObjects
     {
         public string WalletNumber { get; set; }
         public long Amount { get; set; }    
-        public WalletType Currency { get; set; }
+        public AccountType Currency { get; set; }
     }
 }

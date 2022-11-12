@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Application.DataTransferObjects
 {
-    internal class CheckWalletbalanceDTO
+    public class CheckWalletbalanceDTO
     {
+        public string Message { get; set; }
+        public long WalletBalance { get; set; } 
     }
 }
