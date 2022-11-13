@@ -10,7 +10,8 @@ namespace Application.DataTransferObjects
     {
         public string Email { get; set; } 
         public long WalletNumber { get; set; }
-        public long Balance     { get; set; }   
+        public long USDbalance     { get; set; }
+        public long NGNbalance { get; set; }
 
     }
 }

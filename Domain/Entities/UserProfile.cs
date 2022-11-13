@@ -13,9 +13,20 @@ namespace Domain.Entities;
     [Key]
     public string Id { get; set; }  = Guid.NewGuid().ToString();    
   
+    [Required]  
+    [EmailAddress]
     public string Email { get; set; }   
+
+    [Required]
+    [StringLength(100, ErrorMessage = "Name should be under 60 characters")]
     public string FirstName { get; set; }
+
+    [Required]
+    [StringLength(100, ErrorMessage = "Name should be under 60 characters")]
     public string LastName { get; set; }
+
+
+    [Required]
     public string UserName { get; set; }
     public DateTime DOB { get; set; }
     public long BVN { get; set; }

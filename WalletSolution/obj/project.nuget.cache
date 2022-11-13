@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "shLe5QfVfKlhfgvhvwxLtAu8Y7S52yPHZyHT5q4G8VRcn3Xpi4wPv+XyLhlcXnvI4a1MUmiZ3LGAP4LwBVlY3w==",
+  "dgSpecHash": "1tFMl19ektLVAXr/FrPa0CAC1EfI0xaWHKcgtBwwUrHk+vZ7jjNfg3dmVXnYHNegEBQvC2qLv9Of9A88sVLVZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\tosin\\source\\repos\\WalletSolution\\WalletSolution\\WalletSolution.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tosin\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\tosin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tosin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\tosin\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
+    "C:\\Users\\tosin\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\tosin\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\tosin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tosin\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\tosin\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

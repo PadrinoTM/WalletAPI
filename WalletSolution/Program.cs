@@ -1,4 +1,10 @@
+
+
+using FluentValidation;
+using MediatR;
 using Persistence;
+using System.Reflection;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +15,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddPersistence(builder.Configuration);
+builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+//builder.Services.AddAutoMapper(typeof(Program));s
+builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly()); 
 
 var app = builder.Build();
 

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hjYHNQcSVMw+MhFFOiLtSE8bBxKGo56OgJ1oZM3pcLaCIBwRdDOL/PJoKCAydfrwgawgAfVYwB/CLcjmoIneAQ==",
+  "dgSpecHash": "Zyj1CHSj/G1QsXMAY3zv8hg/vWjEGgVloQE0qDGQ2UYeB0KIyf3VUa17qBgVewYyKgj7ddaWHppOwJWgvRA2vg==",
   "success": true,
   "projectFilePath": "C:\\Users\\tosin\\source\\repos\\WalletSolution\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tosin\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\tosin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tosin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\tosin\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
     "C:\\Users\\tosin\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\tosin\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\tosin\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",

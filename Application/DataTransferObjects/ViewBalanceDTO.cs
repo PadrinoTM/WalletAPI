@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Application.DataTransferObjects
 {
-    internal class ViewBalanceDTO
+    public class ViewBalanceDTO
     {
+        public string Email { get; set; }   
+        public string Password { get; set; }
+        public long WalletNumber { get; set; }  
     }
 }

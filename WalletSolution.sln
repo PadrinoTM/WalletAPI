@@ -13,13 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F8D81858-C4E9-4027-8900-20DB84B5221D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{2988AC55-9D0A-4D31-AECF-BE3EAD351B61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{2988AC55-9D0A-4D31-AECF-BE3EAD351B61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{C05A9E1A-9909-426B-92A8-F07ADAB73FBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{C05A9E1A-9909-426B-92A8-F07ADAB73FBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{E36D9C46-8F53-4E1A-8613-2FDE6C573FDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{E36D9C46-8F53-4E1A-8613-2FDE6C573FDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletSolution", "WalletSolution\WalletSolution.csproj", "{D1437193-195F-423A-AEE6-D669AC743A8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalletSolution", "WalletSolution\WalletSolution.csproj", "{D1437193-195F-423A-AEE6-D669AC743A8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

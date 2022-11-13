@@ -9,6 +9,6 @@ namespace Persistence.Repositories
         Task<bool> CreditAccount(CreditAccountDTO creditDto);
         Task<string> ViewWalletBalance(ViewBalanceDTO viewBal);
         long WalletNumGenerator();
-        Task<string> WithdrawBalance(WithdrawFromBalDTO withdrawFromBalDTO);
+        Task<bool> WithdrawBalance(WithdrawFromBalDTO withdrawFromBalDTO);
     }
 }

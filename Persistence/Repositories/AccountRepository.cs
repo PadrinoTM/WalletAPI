@@ -134,7 +134,7 @@ namespace Persistence.Repositories
 
         }
 
-        public async Task<string> WithdrawBalance(WithdrawFromBalDTO withdrawFromBalDTO)
+        public async Task<bool> WithdrawBalance(WithdrawFromBalDTO withdrawFromBalDTO)
         {
             var result = await signinMgr.PasswordSignInAsync(withdrawFromBalDTO.Email, withdrawFromBalDTO.Password, isPersistent: false, lockoutOnFailure: false);
 
@@ -148,31 +148,31 @@ namespace Persistence.Repositories
                     {
                         var newUSD = wallet.USDWallet - withdrawFromBalDTO.Amount;
                         var newWallet = new WalletAccount(wallet.WalletNumber, 0, wallet.NGNWallet, newUSD);
-                        return $"Your New USD Balance is {newUSD}";
+                        return true;
                     }
 
                     else if (withdrawFromBalDTO.Currency == AccountType.NGN.ToString() && withdrawFromBalDTO.Amount >= wallet.NGNWallet)
                     {
                         var newNGN = wallet.NGNWallet - withdrawFromBalDTO.Amount;
                         var newWallet = new WalletAccount(wallet.WalletNumber, 0, newNGN, wallet.USDWallet);
-                        return $"Your New NGN Balance is {newNGN}";
+                        return true;
                     }
 
                     else
                     {
-                        return "Cannot withdraw more than your current Balance in NGN or USD";
+                        return false;
                     }
                 }
 
                 else
                 {
-                    return "Wallet Number doesnt match the user, please input the correct wallet";
+                    return false;
                 }
             }
 
             else
             {
-                return "Login attempts failed";
+                return false;
             }
 
         }

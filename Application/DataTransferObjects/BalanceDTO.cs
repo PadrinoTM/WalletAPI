@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Application.DataTransferObjects
 {
-    internal class BalanceDTO
+    public class BalanceDTO
     {
+        public long Balance { get; set; }
     }
 }

@@ -12,10 +12,12 @@ namespace Domain.Entities
     public class TransactionProfile
     {
         [Key]
-        public string TransactionId { get; set; }
+        public int TransactionId { get; set; }
 
         public string TransactionName { get; set; } 
         public DateTime TransactionDate { get; set; }
+
+        public bool TransactionStatus { get; set; } = false;
         public TransactionType TransactionType { get; set; }
         [ForeignKey("userId")]
         public string userId { get; set; }  

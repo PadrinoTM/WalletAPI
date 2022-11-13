@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Persistence.MediaTR.Commands
 {
-    public sealed record CreateUserWallet(CreateWalletDTO CreateWalletDTO): IRequest<WalletReturnDTO>
+    public sealed record WithdrawFromAccountCommand(WithdrawFromBalDTO WithdrawFromBalDTO) : IRequest<bool>
     {
     }
 }
